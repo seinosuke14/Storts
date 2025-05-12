@@ -1,0 +1,26 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+
+.header-title{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  text-align: center;
+}
+
+.banner{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 2vh;
+}
+.buttons button{
+  margin: 1vh;
+}
+.carrusel-list{
+  display: flex;
+
+}
