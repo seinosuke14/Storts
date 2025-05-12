@@ -1,0 +1,21 @@
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+app-header{
+  flex-shrink: 0;
+  z-index: 10;
+}
+.content {
+  flex-grow: 1; /* Ocupa el espacio disponible */
+  overflow-y: auto; /* Permite scroll en el contenido */
+}
+
+app-footer {
+  flex-shrink: 0;
+  z-index: 10;
+}
